@@ -28,7 +28,7 @@ hero:
   socialLinks:
     fontIcons:
       - icon: fab fa-github
-      url: https://github.com/genkovteodor
+        url: https://github.com/genkovteodor
       # - icon: fab fa-linkedin
       #url: www.linkedin.com/in/genkovteodor
   
@@ -38,3 +38,23 @@ hero:
 about:
   enable: true
   title: "About Me"
+  content: |-
+    I am Computer Science student. I have a background in IT as a IT Support Technician.
+
+  skills:
+    enable: true
+    title: "Here are a few technologies I've been working with recently:"
+    items:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+      - "Hugo API"
+      - "Markdown"
+
+# Experience
+experience:
+  enable: true
+  items:
+    - job: "IT Support Technician I"
+      company: "UNLV Office of Information Technology"
+      companyurl: "unlv.edu"
