@@ -1,0 +1,40 @@
+baseURL: "http://teodorgenkov.com/"
+languageCode: "en-US"
+title: "Teodor Genkov"
+theme: hugo-profile
+
+
+
+Menus:
+  main:
+    - identifier: about me 
+      name: About Me
+      title: Informational
+      url: /about-me
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 2
+
+
+
+hero:
+  enable: true
+  title: "Teodor Genkov"
+  subtitle: "Welcome to my website!"
+  content: A passionate Computer Science student. I am on a journey to learn and build different projects to further my programming knowledge.
+  #image
+  socialLinks:
+    fontIcons:
+      - icon: fab fa-github
+      url: https://github.com/genkovteodor
+      # - icon: fab fa-linkedin
+      #url: www.linkedin.com/in/genkovteodor
+  
+
+
+# About
+about:
+  enable: true
+  title: "About Me"
